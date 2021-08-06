@@ -19,7 +19,7 @@ public class Main {
         System.out.println("Enter user name: ");
         String user = input.nextLine();
         System.out.println("Enter password");
-        String pass = input.nextLine();        //stores user input into string files
+        String pass = input.nextLine();        //stores user input into string variables
 
 
         if(user.equals(storedUser)&&storedPass.equals(pass)) {    //checks to see if the user input matches whats on file
